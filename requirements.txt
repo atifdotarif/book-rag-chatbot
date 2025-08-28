@@ -1,0 +1,19 @@
+# Core RAG dependencies
+langchain==0.1.0
+langchain-openai==0.0.5
+langchain-community==0.0.10
+langchain-pinecone==0.0.1
+pinecone-client==2.2.4
+
+# PDF processing
+PyPDF2==3.0.1
+
+# Web framework
+Flask==3.0.0
+Werkzeug==3.0.1
+
+# Environment and utilities
+python-dotenv==1.0.0
+
+# Optional: for better PDF handling
+pypdf==3.17.4

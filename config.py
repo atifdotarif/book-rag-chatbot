@@ -1,11 +1,12 @@
 import os, sys
 from dotenv import load_dotenv
+
 load_dotenv()
 
 def require_env(name: str) -> str:
     val = os.getenv(name)
     if not val:
-        print(f"[ERROR] Env var {name} not set", file=sys.stderr)
+        print(f"[ERROR] Environment variable {name} is not set.", file=sys.stderr)
         sys.exit(1)
     return val
 
